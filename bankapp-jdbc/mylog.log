@@ -1,0 +1,6 @@
+2019-03-28 17:53:40,854[yyyy-MM-dd hh:mm:ss]- 0 - [main] ERROR com.capgemini.bankapp.util.DbUtil  - Exception
+com.capgemini.bankapp.exception.AccountNotFoundException: account doesn't exist
+	at com.capgemini.bankapp.service.impl.BankAccountServiceImpl.deposit(BankAccountServiceImpl.java:75)
+	at com.capgemini.bankapp.service.impl.BankAccountServiceImpl.fundTransfer(BankAccountServiceImpl.java:112)
+	at com.capgemini.bankapp.client.BankAccountClient.main(BankAccountClient.java:124)
+2019-03-28 17:53:40,878[yyyy-MM-dd hh:mm:ss]- 24 - [main] ERROR com.capgemini.bankapp.client.BankAccountClient  - account doesn't exist
